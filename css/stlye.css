@@ -235,17 +235,18 @@ header {
     height: 100%;
     margin: auto;
     background-color: yellow;
-    text-transform: uppercase;
 }
 .content-wrap > p{
     font-size: 30px;
     line-height: 30px;
+    text-transform: uppercase;
 }
 .content-wrap > h2{
     font-size: 43px;
     line-height: 43px;
     font-weight: 700;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 .content2-inner {
     display: flex;
@@ -281,7 +282,6 @@ header {
 #content3 {
     width: 100%; 
     height: 610px;
-    background-color: pink;
     margin-top: 60px;
 }
 .content3-inner {
@@ -300,14 +300,33 @@ header {
 .content3-inner ul li > img {
     width: 100%;
 }
+.content3-inner ul li > p {
+    font-size: 17px;
+    font-weight: 600;
+}
 .content3-img {
     text-align: left;
     display: flex;
-    gap: 10px;
+    justify-content: start;
+    gap: 20px;
 }
 .content3-img:nth-child(3) {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .content3-img:nth-child(4), .content3-img:nth-child(5) {
-    margin-top: 12px;
+    margin-top: 11px;
+}
+.content3-text h3 {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.content3-text p {
+    font-size: 17px;
+    font-weight: 400;
+}
+#content4 {
+    width: 100%;
+    height: 440px;
+    margin-top: 80px;
 }
