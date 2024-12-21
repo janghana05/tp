@@ -85,6 +85,12 @@ header {
 .header-bottom nav ul li {
     font-weight: 500;
 }
+.header-bottom nav ul li:hover {
+    font-weight: 600;
+}
+.header-bottom nav ul li:hover a {
+    font-size: 18px;
+}
 #main-gnb-inner {
     display: flex;
     justify-content: end;
@@ -152,6 +158,13 @@ header {
     border-radius: 35px;
     margin-top: 20px;
     margin-left: 240px;
+}
+.slide-button:hover {
+    background-color: var(--primary-font-color);
+    border: 1.5px solid #ffffff;
+}
+.slide-button:hover a {
+    color: #ffffff;
 }
 .slide-button a {
     width: 100%;
